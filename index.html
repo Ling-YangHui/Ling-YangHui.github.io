@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="start.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap-hover-dropdown.min.js"></script>
+
+    <!-- 下拉菜单的悬浮启动 -->
+    <title>YangHui的小站 --阳之所至，万象朝辉--</title>
+</head>
+
+<body style="background-color: rgb(77,77,77);">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header col-md-offset-1">
+            <a href="https://github.com/Ling-YangHui" class="navbar-brand" target="_blank">YangHui</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">首页</a></li>
+                <li>
+                    <button class="nav navbar dropdown-toggle" id="menu1" data-hover="dropdown" data-toggle="dropdown"
+                        style="top: 0px;">项目</button>
+                    <ul role="menu" class="dropdown-menu menuOption" aria-labelledby="menu1">
+                        <li><a href="https://github.com/Ling-YangHui/Bilibili-Vocaloid-data-get" target="_brand"
+                                class="menuOption">bilibili数据获取</a></li>
+                        <li><a href="https://github.com/Ling-YangHui/FengRu_Cup" target="_brand"
+                                class="menuOption">SmartPlug</a></li>
+                        <li><a href="DataStructure.html" target="_brand" class="menuOption">数据结构笔记</a></li>
+                        <li><a href="https://github.com/Ling-YangHui/Software-Fundamental" target="_brand" class="menuOption">实时通讯系统</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button class="nav navbar dropdown-toggle" id="menu1" data-hover="dropdown" data-toggle="dropdown"
+                        style="top: 0px;">友链</button>
+                    <ul role="menu" class="dropdown-menu menuOption" aria-labelledby="menu1">
+                        <li><a href="https://narukara.github.io" target="_brand" class="menuOption">Narukara的小站</a></li>
+                        <li><a href="https://www.bunnyxt.com/" target="_brand" class="menuOption">bunnyxt</a></li>
+                    </ul>
+                </li>
+                <li><a href="thank.html" target="_blank">鸣谢</a></li>
+                <li><a href="https://github.com/Ling-YangHui/ling-yanghui.github.io" target="_blank">开源</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 70px;margin-bottom: 100px;">
+        <div id="myCarousel" class="carousel slide col-md-10 col-md-offset-1" style="padding: 0" data-ratio="16:9">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner" style="height: 100%;width: 100%;">
+                <div class="item">
+                    <a href="https://github.com/Ling-YangHui/FengRu_Cup" target="_blank"><img src="image/1.jpg"
+                            alt="Missing" style="height: 100%;width: 100%;"></a>
+                    <div class="carousel-caption">
+                        <h1 class="pictureTopic">SmartPlug</h1>
+                        <h4 class="pictureExplanation">一个已经结束的项目，从此嵌入式的大门向我们打开</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="https://github.com/Ling-YangHui/Bilibili-Vocaloid-data-get" target="_blank"><img
+                            src="image/2.jpg" alt="Missing" style="height: 100%;width: 100%;"></a>
+                    <div class="carousel-caption">
+                        <h1 class="pictureTopic">冰数据 bilibili——Vocaloid 采集器</h1>
+                        <h4 class="pictureExplanation">一个正在进行的爬虫项目，用于分析bilibili站内各个虚拟歌手的视频播放量</h4>
+                    </div>
+                </div>
+                <div class="item active">
+                    <a href="https://github.com/Ling-YangHui/Software-Fundamental" target="_blank"><img
+                            src="image/6.jpg" alt="Missing" style="height: 100%;width: 100%;"></a>
+                    <div class="carousel-caption">
+                        <h1 class="pictureTopic">实时通讯系统</h1>
+                        <h4 class="pictureExplanation">计算机软件大作业的实时通讯系统，第一个合作做的软件项目</h4>
+                        <h5 class="pictureExplanation">"她的心经火山岩浆熔炼，是这世上最坚硬纯粹之物"</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/5.jpg" alt="Missing" style="height: 100%;width: 100%;">
+                    <div class="carousel-caption">
+                        <h1 class="pictureTopic">数学建模大赛</h1>
+                        <h4 class="pictureExplanation">9月13号结束的一个三天的比赛，千行代码写完不仅累，还是不知道什么已经没有了的空虚呢</h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/3.jpg" alt="Missing" style="height: 100%;width: 100%;">
+                    <div class="carousel-caption">
+                        <h1 class="pictureTopic">FrostStarlight计划</h1>
+                        <h4 class="pictureExplanation">正在规划中的项目，设计一个属于自己的嵌入式系统核心架构，代号“霜星”</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- 主界面 -->
+        <div class="container-fluid" style="margin: 100px"></div>
+        <div class="col-md-10 col-md-offset-1 aboutMe" style="padding-left: 10%;padding-right: 10%;">
+            <h1>关于我</h1><br>
+            <div class="container"
+                style="width: 100%;height: 100%; margin-bottom: 30px; border-bottom: 1px; border-bottom-style:dashed; padding-bottom: 10px; border-color: #c0c0c0;">
+                <p style="font-size: 15px;">00后&emsp; 理工科&emsp; BUAA&emsp; ACGN</p>
+            </div>
+
+            <p>我是YangHui</p>
+            <p>一个电子技术爱好者，勉强算代码搬砖</p>
+            <p>差点忘了，也是个二次元</p>
+            <p>bilibili无名up主</p>
+            <p>有点强迫症，实打实的追ddl的人</p>
+            <p>现就读于北京航空航天大学·电子信息工程学院</p>
+            <p>学业之余，便来这打扫一会</p>
+            <p>请多指教！</p>
+        </div>
+
+        <div class="container col-md-10 col-md-offset-1" style="margin-top: 100px; margin-bottom: 50px;">
+            <div class="col-md-4">
+                <div class="contianer" id="divShow">
+                    <div class="container topicFont">
+                        <h1 style="color: whitesmoke;">SmartPlug</h1>
+                    </div>
+                    <p class="explanation">
+                        和Narukara做的一个冯如杯项目，实现了Android和单片机的网络通讯。这虽然是一个很简单的项目，并且早就已经停止了更新，服务器也已经完全关闭，但是设计的通讯内核仍然在不断更新，程序内核正在进行Cortex-M的移植。
+                    </p>
+                    <div class="container" style="margin-top: 25%; width: 100%;">
+                        <span><a href="https://github.com/Ling-YangHui/FengRu_Cup" target="_blank"><button
+                                    class="btn">项目源代码</button></a></span> &emsp;&emsp;
+                        <!--空格两个分开-->
+                        <span><a href="https://narukara.github.io/smartplug.html" target="_blank"><button
+                                    class="btn">下载App</button></a></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contianer" id="divShow">
+                    <div class="container topicFont">
+                        <h1 style="color: whitesmoke;">Bilibili<br>getVocalList</h1>
+                    </div>
+                    <p class="explanation">
+                        最早由景育开发。2019年底开始接手这个项目，从最早的人工查错查重到后来的多线程哈希列表处理数据，再到现在的GUI界面，该项目已经经过了4个大版本的迭代，是当前开发出的最为完善的产品之一。
+                    </p>
+                    <div class="container" style="margin-top: 25%; width: 100%;">
+                        <span><a href="https://github.com/Ling-YangHui/Bilibili-Vocaloid-data-get"
+                                target="_blank"><button class="btn">项目源代码</button></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contianer" id="divShow">
+                    <div class="container topicFont">
+                        <h1 style="color: whitesmoke;">实时通讯软件</h1>
+                    </div>
+                    <p class="explanation">
+                        第一个用python写的项目，算是心血之作了。虽然还是有很多需要改进的地方，但是我想这个架构应该可以适配很多东西了</p>
+                    <div class="container" style="margin-top: 40%; width: 100%;">
+                        <span><a href="download/即时通讯软件·操作手册.pdf" target="_blank"><button class="btn">操作手册</button></a></span>
+                        &emsp;&emsp;
+                        <!--空格两个分开-->
+                        <span><a href="https://github.com/Ling-YangHui/Software-Fundamental"
+                                target="_blank"><button class="btn">源代码</button></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4 timeLine" style="border-left: 1px dashed #ffffff; margin-top: 50px;">
+            <div class="container" style="width: 100%;padding-left: 5%;padding-right: 5%; margin-top: 50px;">
+                <h3 style="text-align: center;">实时通讯系统</h3>
+                <p class="time">2020.12.26</p>
+                <p>&emsp;&emsp;第一个用python写的中型项目，从API做起，写到最后的GUI界面。将最后一个版本标注上finally上传GitHub的时候，还是有点舍不得的吧。</p>
+                <p>&emsp;&emsp;&emsp;"她的心经火山岩浆熔炼，是这世上最坚硬纯粹之物"</p>
+            </div>
+            <div class="container" style="width: 100%;padding-left: 5%;padding-right: 5%; margin-top: 50px;">
+                <h3 style="text-align: center;">数学建模比赛</h3>
+                <p class="time">2020.09.11-2020.09.14</p>
+                <p>&emsp;&emsp;三天任务，每天17个小时，四种编程语言，1300行代码；8000字论文，三种模型猜想，海棠三日，三人一个奇迹。</p>
+            </div>
+            <div class="container" style="width: 100%;margin-top: 50px;margin-bottom: 50px;">
+                <h3 style="text-align: center;">一路向北</h3>
+                <p class="time">2020.09.06</p>
+                <p>&emsp;&emsp;坐了差不多整整一天的火车，北京，我终于回来了。谢天谢地，世界还在。</p>
+            </div>
+        </div>
+    </div>
+    <nav class="nav navbar-inverse" role="navigation" style="margin-top: 100px;">
+        <div class="container" style="text-align: center; color: #9d9d9d">
+            <h2>YangHui</h2>
+            <h4 style="font-size: 5px; margin-top: 0;">阳之所至，万象朝辉</h4>
+        </div>
+        <div class="container" style="text-align: center; color: #9d9d9d">Powered by: <a href="https://www.bootcss.com/"
+                target="_blank"
+                style="color: #9d9d9d; text-decoration: none;">BootStrap</a>&emsp;&emsp;&emsp;&emsp;CopyRight: YangHui
+        </div>
+        <div class="container" style="text-align: center; color: #9d9d9d; padding:20px">
+            <address>
+                北京 · 海淀<br>
+                北京航空航天大学 · 电子信息工程学院<br>
+                Email: 2411046022@qq.com<br>
+            </address>
+        </div>
+    </nav>
+</body>
+
+</html>
