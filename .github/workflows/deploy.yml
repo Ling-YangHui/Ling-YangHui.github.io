@@ -32,7 +32,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18.14.2
-          npm-version: 9.5.1
           cache: 'npm'
       - name: Setup Pages
         id: pages
